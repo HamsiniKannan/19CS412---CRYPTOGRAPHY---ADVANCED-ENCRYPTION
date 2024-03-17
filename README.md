@@ -21,6 +21,7 @@ STEP-7: Decryption is done as cipherdmod n.
 
 ## PROGRAM:
 ```
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -84,7 +85,7 @@ return 0;
 }
 ```
 ## OUTPUT:
-![Screenshot 2024-03-05 113517](https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/b96f8704-db74-4fb0-835d-078d58644625)
+![image](https://github.com/HamsiniKannan/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119393929/aefbc4db-1b5d-4b5a-95d7-4dbb9ee7f93b)
 
 
 ## RESULT :
@@ -163,10 +164,12 @@ printf("Secret key for the Alice is : %lld\n", ka);
 printf("Secret Key for the Bob is : %lld\n", kb);
 return 0;
 }
+
 ```
 ## OUTPUT:
 
-<img width="342" alt="image" src="https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/a3f5b0fa-ef81-4215-9521-2a16c87cef68">
+![image](https://github.com/HamsiniKannan/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119393929/b5e884e9-7290-4a38-a6a8-fa8a8e76ea6f)
+
 
 
 ## RESULT: 
@@ -201,6 +204,7 @@ same process for the remaining plain text characters.
 
 ```
 from cryptography.fernet import Fernet
+print("Enter the string: ")
 message = input()
 key = Fernet.generate_key()
 fernet = Fernet(key)
@@ -211,10 +215,11 @@ print("encrypted string: ", encMessage)
 decMessage = fernet.decrypt(encMessage).decode()
  
 print("decrypted string: ", decMessage)
+
 ```
 ## OUTPUT:
 
-<img width="756" alt="image" src="https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/23e74c08-7cea-4381-b9fe-97e247b17470">
+![image](https://github.com/HamsiniKannan/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119393929/3296e14e-d49d-4d3e-aa9c-5ac10f92ee5b)
 
 ## RESULT:
 
